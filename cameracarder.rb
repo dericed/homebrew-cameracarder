@@ -1,8 +1,8 @@
 class Cameracarder < Formula
   desc "report on treesize reports to find potential camera cards"
   homepage "https://github.com/dericed/cameracarder"
-  url "https://github.com/dericed/cameracarder/archive/refs/tags/cameracarder_20250512b.tar.gz"
-  sha256 "16f36a41d2ccc7458bb509cfce812c1d3a45b79837a389c059315ee1898d8a0d"
+  url "https://github.com/dericed/cameracarder/archive/refs/tags/cameracarder_20250523.tar.gz"
+  sha256 "7874543679c8bfdf9d0d984f022ecc1ec08180adeed5d97cca0f5fdb52da5fe5"
   head "https://github.com/dericed/cameracarder.git"
 
   depends_on "csvkit"
@@ -15,5 +15,6 @@ class Cameracarder < Formula
     bin.install "find_cards"
     bin.install "makeproofsheet"
     bin.install "makexdcam"
+    bin.install "movefiles"
   end
 end
