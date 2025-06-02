@@ -1,8 +1,8 @@
 class Cameracarder < Formula
   desc "report on treesize reports to find potential camera cards"
   homepage "https://github.com/dericed/cameracarder"
-  url "https://github.com/dericed/cameracarder/archive/refs/tags/cameracarder_20250523.tar.gz"
-  sha256 "7874543679c8bfdf9d0d984f022ecc1ec08180adeed5d97cca0f5fdb52da5fe5"
+  url "https://github.com/dericed/cameracarder/archive/refs/tags/cameracarder_20250602.tar.gz"
+  sha256 "cb4edf198b989ea97e6df175ebbfbf7c8e5e5fc6deb017521d33b7b139075573"
   head "https://github.com/dericed/cameracarder.git"
 
   depends_on "csvkit"
